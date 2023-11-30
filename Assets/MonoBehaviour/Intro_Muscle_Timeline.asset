@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Intro_Muscle_Timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 11400000, guid: e541cea5fceffe54981adfe0e5d7ad34, type: 2}
+  - {fileID: 11400000, guid: a582767aca27b3e4d9f3cf2610a6fe5e, type: 2}
+  - {fileID: 11400000, guid: 719891aa366401943b657eb652ac86ac, type: 2}
+  - {fileID: 11400000, guid: 3b36335bfd1f67a4a967bc7b0d8eefde, type: 2}
+  - {fileID: 11400000, guid: fd1d49284ac767f4c8f42ac8d2e0952a, type: 2}
+  - {fileID: 11400000, guid: 23d425fc07d6a6549b04c84df204b313, type: 2}
+  - {fileID: 11400000, guid: 085e1687da4a21249beaedffb2017ee8, type: 2}
+  - {fileID: 11400000, guid: 429a827486fb34743be59ff56655b7e7, type: 2}
+  - {fileID: 11400000, guid: 8ca8fdd89bab0a74698ee89bcb42834b, type: 2}
+  m_FixedDuration: 16.666666666666668
+  m_EditorSettings:
+    m_Framerate: 30
+  m_DurationMode: 1
+  m_MarkerTrack: {fileID: 11400000, guid: cc6714e68b933524996269d77c004d76, type: 2}

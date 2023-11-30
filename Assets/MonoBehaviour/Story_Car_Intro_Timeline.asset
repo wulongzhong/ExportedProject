@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Story_Car_Intro_Timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 11400000, guid: ebab6fca01446a6428c22f8125ce3ecd, type: 2}
+  - {fileID: 11400000, guid: 3865f61a52839414e8a991f5bd16eada, type: 2}
+  - {fileID: 11400000, guid: 16ea6b9f09f369d46b004b11e0bf007f, type: 2}
+  - {fileID: 11400000, guid: 399d67b450469b84faf0cfb2caf7b3dc, type: 2}
+  - {fileID: 11400000, guid: 87c3f2fb2bd920a48968c272356eb41a, type: 2}
+  - {fileID: 11400000, guid: 7311731de44e58943a4bcbca747d577b, type: 2}
+  - {fileID: 11400000, guid: a229f541b0f656d4b8794902d79d6427, type: 2}
+  - {fileID: 11400000, guid: 9250f2c82e4e4f14e9fbc2c30c4724d8, type: 2}
+  - {fileID: 11400000, guid: 2c791b42e86de0e4898bedbf86697eef, type: 2}
+  m_FixedDuration: 8.933333333333334
+  m_EditorSettings:
+    m_Framerate: 30
+  m_DurationMode: 1
+  m_MarkerTrack: {fileID: 11400000, guid: 951d831e6a9c050439ff9cee50334234, type: 2}

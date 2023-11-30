@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 10
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bumper_grill_small1
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 96
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 25
+    localAABB:
+      m_Center: {x: -3.1292439E-07, y: 0.33321714, z: 1.4036827}
+      m_Extent: {x: 0.3161384, y: 0.0850743, z: 9.7453594E-05}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: []
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: []
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200000002000300030004000000030005000400060001000000070004000500060000000800080000000400090006000800090008000a000b0009000a000b000a000c000a0008000d00080004000d000c000a000e000a000d000e000c000e000f0010000f000e0010000e00110011000e000d0011001200100011001300120011000d00140014001300110014000d000400140015001300160015001400140004001700160014001700070017000400180016001700180017000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 25
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1200
+    _typelessdata: 196c4bbe8aa38a3e9ca9b33fcd0e12b909c6a5b80000803f000080bf0000000000000000000080bfd1d63d3fe426523feedca1be78a48a3eb9a8b33f168d83b9a76aa3b60000803f000080bf0000000000000000000080bfdd1a413ff026523feedca1be731b7e3eb0a8b33f915785b9e6e789b70000803f000080bf0000000000000000000080bfdd1a413fdc85513f946b4bbe7d197e3e94a9b33fac26f3b8cfc4adb70000803f000080bf0000000000000000000080bfced63d3fd285513fb76aaeb461a38a3ec6a9b33f04f0b6b46954cab80000803f000080bf0000000000000000000080bf2451383fe326523fb86aaeb429197e3ec4a9b33f86f4b6b4aeb3a9b70000803f000080bf0000000000000000000080bf2451383fcd85513feedca1beb712a53eafa8b33febae87b92fafb3360000803f000080bf0000000000000000000080bfdd1a413f4996533f6a6b4b3e7b197e3e99a9b33fc5c0f238cfc4adb70000803f000080bf0000000000000000000080bf78cb323fd285513f60734bbed24da53ee7a9b33fd04603ba8df895baf4ff7f3f000080bf0000000000000000000080bf03d73d3f8199533feedca1be9e42c13eb0a8b33f398697b9261605bbdeff7f3f000080bf0000000000000000000080bfdd1a413f121e553f4ee34bbe64f1c03eabaeb33f074d5cba0231f0badeff7f3f000080bf0000000000000000000080bf10da3d3fa919553feedca1be40edd53e06aeb33f51ea4eba16e179bb82ff7f3f000080bf0000000000000000000080bfdd1a413f4f3d563fa2eb4bbe4c2ad63e06afb33fffde0cb9469f8ab90000803f000080bf0000000000000000000080bf48da3d3fa140563f866aaeb4c14da53e0faab33f9daeb6b408e6b7baf0ff7f3f000080bf0000000000000000000080bf2451383f8199533f9667aeb461f1c03eb3aeb33f4f55b6b4811abdbaf0ff7f3f000080bf0000000000000000000080bf2451383fa919553f5c67aeb44a2ad63e12afb33fcc4eb6b4ed5989b90000803f000080bf0000000000000000000080bf2451383fa140563f78eb4b3e4c2ad63e09afb33f36ac0c39469f8ab90000803f000080bf0000000000000000000080bfffc7323fa140563f2be34b3e62f1c03eadaeb33f8c405c3a4330f0badeff7f3f000080bf0000000000000000000080bf38c8323fa919553fd9dca13e42edd53e06aeb33f9afe4e3a5ae079bb82ff7f3f000080bf0000000000000000000080bf6a872f3f4f3d563fd9dca13e9c42c13eafa8b33fc2ae9739261605bbdeff7f3f000080bf0000000000000000000080bf6a872f3f121e553f37734b3ed04da53eeba9b33ffd39033a8df895baf4ff7f3f000080bf0000000000000000000080bf46cb323f8199533fd9dca13eb612a53eb0a8b33f72d787392fafb3360000803f000080bf0000000000000000000080bf6a872f3f4996533fd9dca13e78a48a3eb8a8b33f9db58339a76aa3b60000803f000080bf0000000000000000000080bf6a872f3ff026523ff06b4b3e89a38a3e9ca9b33fd8db113933baa5b80000803f000080bf0000000000000000000080bf76cb323fe426523fd9dca13e731b7e3eb2a8b33f19808539e6e789b70000803f000080bf0000000000000000000080bf6a872f3fdc85513f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -3.1292439E-07, y: 0.33321714, z: 1.4036827}
+    m_Extent: {x: 0.3161384, y: 0.0850743, z: 9.7453594E-05}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshMetrics[0]: 84.8136
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path:

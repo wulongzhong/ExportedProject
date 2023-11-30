@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb44e88a08ab049857bebf1cc4c3946, type: 3}
+  m_Name: GGServerConstantsLocal
+  m_EditorClassIdentifier:
+  constantsName: Local
+  privateKey: RKaEFn3f1OpzsqtV7L9B7Usjnxl0QwA2
+  publicKey: 1ADVDohGq8xvFLZg8NMA9SvnjE0RHJmE
+  appName: m3HomeDesign
+  urlBase: http://localhost:5000/
+  leadVersion: 0
+  nonceUrlPath: client/nonce
+  timeUrlPath: client/time
+  leadUrlPath: comp/lead
+  updateUrlPath: comp/update
+  getIdUrlPath: users/getId
+  getPrizesUrlPath: comp/getPrizes
+  ackPrizesUrlPath: comp/ackPrizes
+  getActiveCompetitionUrlPath: comp/active
+  getCloudSyncUrlPath: cs/get
+  updateCloudSyncUrlPath: cs/update
+  FBLoginUrlPath: login/fb
+  FBInvitableFriendsPath: facebook/getInvitableFriends
+  PlayerProfilePath: facebook/getPlayerProfile
+  FBPlayingFriendsPath: facebook/getPlayingFriends
+  PlayerGetMessagesPath: messages/getMessages
+  MarkMessageReadPath: messages/markAsRead
+  getFriendProfilesPath: cs/getProfiles
+  getSegmentedLeaderboards: comp/segmentedLead
+  verifyInAppPurchases: ia/play/verify
+  exchangeCurrencyPath: ia/exchange
+  getOnlineEventsPath: getonlineevents
+  getOnlineEventsLeaderboardsPath: geteventslead
+  updateOnlineEventsPath: updatechallengescore
+  likeReplayPath: likereplay
+  getPositionPath: getposition
+  getPlayerPositionList: comp/getPositions
+  uploadLeadDataPath: savedata
+  getAppMessagesPath: getMessage
+  getEventMessagesPath: messageforevent
+  updateAppMessagesPath: updateMessage
+  createUserChallengePath: createuserchallenge
+  getUserChallengePath: getuserchallenge
+  getChallengesForPlayerPath: getchallengesforplayer
+  userChallengeReportScorePath: uploadleaderboard
+  likeUserChallengesPath: setlikelevel
+  rateUserChallengesPath: setratinglevel
+  getSingleChallengePath: getchallengefromid
+  userChallengeIncrementDownloadCountPath: incDownloadCount
+  createChallengeReportPath: createchallengereport
+  fbInvitePagesToFetch: 2
+  maxEntriesPerLead: 5

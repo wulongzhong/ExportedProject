@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Phone_InComing_Timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 11400000, guid: 843c635b9e1ebac409653266fb640336, type: 2}
+  - {fileID: 11400000, guid: c0a44b628a0a5f64a9283f2ee8f6b00a, type: 2}
+  - {fileID: 11400000, guid: 564c71a6b9b6f4d4bb425a97a27548fe, type: 2}
+  - {fileID: 11400000, guid: 1d9f7be19b29f7248a4134856b4c6db6, type: 2}
+  m_FixedDuration: 4
+  m_EditorSettings:
+    m_Framerate: 30
+  m_DurationMode: 1
+  m_MarkerTrack: {fileID: 11400000, guid: 902cadde7c5a5a749b7391511e3d736c, type: 2}

@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2019389346, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
+  m_Name: InlineIcons
+  m_EditorClassIdentifier:
+  hashCode: 1488614161
+  material: {fileID: 2100000, guid: 8663ddfda59973544ab1881728366ef9, type: 2}
+  materialHashCode: 0
+  m_Version: 1.1.0
+  spriteSheet: {fileID: 0}
+  m_SpriteCharacterTable:
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 0
+    m_Scale: 1
+    m_Name: IL_Spin
+    m_HashCode: 1367785214
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 1
+    m_Scale: 1
+    m_Name: IL_Gem
+    m_HashCode: -1520337099
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 2
+    m_Scale: 1
+    m_Name: IL_Life
+    m_HashCode: 1368181500
+  - m_ElementType: 2
+    m_Unicode: 1
+    m_GlyphIndex: 3
+    m_Scale: 1
+    m_Name: IL_Share
+    m_HashCode: -2108581801
+  m_SpriteGlyphTable:
+  - m_Index: 0
+    m_Metrics:
+      m_Width: 64
+      m_Height: 64
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 55
+      m_HorizontalAdvance: 64
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 64
+      m_Height: 64
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 1
+    m_Metrics:
+      m_Width: 64
+      m_Height: 64
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 55
+      m_HorizontalAdvance: 64
+    m_GlyphRect:
+      m_X: 64
+      m_Y: 0
+      m_Width: 64
+      m_Height: 64
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 2
+    m_Metrics:
+      m_Width: 64
+      m_Height: 64
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 55
+      m_HorizontalAdvance: 64
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 0
+      m_Width: 64
+      m_Height: 64
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 64
+      m_Height: 64
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 55
+      m_HorizontalAdvance: 64
+    m_GlyphRect:
+      m_X: 192
+      m_Y: 0
+      m_Width: 64
+      m_Height: 64
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 0
+    width: 64
+    height: 64
+    xOffset: 0
+    yOffset: 55
+    xAdvance: 64
+    scale: 1
+    name: IL_Spin
+    hashCode: 1367785214
+    unicode: 0
+    pivot: {x: -32, y: 32}
+    sprite: {fileID: 0}
+  - id: 1
+    x: 64
+    y: 0
+    width: 64
+    height: 64
+    xOffset: 0
+    yOffset: 55
+    xAdvance: 64
+    scale: 1
+    name: IL_Gem
+    hashCode: -1520337099
+    unicode: 0
+    pivot: {x: -32, y: 32}
+    sprite: {fileID: 0}
+  - id: 2
+    x: 128
+    y: 0
+    width: 64
+    height: 64
+    xOffset: 0
+    yOffset: 55
+    xAdvance: 64
+    scale: 1
+    name: IL_Life
+    hashCode: 1368181500
+    unicode: 0
+    pivot: {x: -32, y: 32}
+    sprite: {fileID: 0}
+  - id: 3
+    x: 192
+    y: 0
+    width: 64
+    height: 64
+    xOffset: 0
+    yOffset: 55
+    xAdvance: 64
+    scale: 1
+    name: IL_Share
+    hashCode: -2108581801
+    unicode: 1
+    pivot: {x: -32, y: 32}
+    sprite: {fileID: 0}
+  fallbackSpriteAssets: []

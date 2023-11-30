@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4eb97cbb07d3604617452e50233ba8, type: 3}
+  m_Name: CarsDBSettings
+  m_EditorClassIdentifier:
+  blendSettings:
+    blendDuration: 0.4
+    blendCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  explosionSettings:
+    minValueWhenSwitch: 0.1
+    distanceFromCenter: 1.5
+    durationToReturn: 0.5
+    unexplodeTimeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sliderCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  carSettings:
+  - carName: TestCar
+    carCameraSettings:
+    - settingsName: InCamera
+      cameraDistance: -5
+      verticalAngleRange:
+        min: 0
+        max: 45
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 0
+      startHorizontalAngle: 0
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 0
+      rotationCenter: {x: 0, y: 0, z: 0}
+      changeAnglesAtStart: 0
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_FL
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 29.95
+      startHorizontalAngle: 14.71
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: -0.5337654, y: 0.3, z: 1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_FR
+      cameraDistance: -1.72
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 22.21
+      startHorizontalAngle: -34.6
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: 0.5337654, y: 0.3, z: 1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_RL
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 23
+      startHorizontalAngle: 17.15
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: -0.5337654, y: 0.3, z: -1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_RR
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 27.2
+      startHorizontalAngle: -2.9
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter: {x: 0.5337654, y: 0.3, z: -1.362305}
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+  subpartInSettings:
+    inDuration: 0.5
+    fromScale: 0
+    toScale: 1
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5949998
+        value: 1.0739651
+        inSlope: 1.6948581
+        outSlope: 1.6948581
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8549466
+        value: 0.8400797
+        inSlope: -1.1762977
+        outSlope: -1.1762977
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDuration: 0.5
+    moveCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.35869563
+        outSlope: 0.35869563
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.34573796
+        value: 1.05
+        inSlope: 0.38220257
+        outSlope: 0.38220257
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.15092327
+      - serializedVersion: 3
+        time: 0.79205936
+        value: 0.95131767
+        inSlope: -0.66161156
+        outSlope: -0.66161156
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    openDuration: 1
+  subpartBlinkSettings:
+    inDuration: 0.5
+    fromScale: 1.2
+    toScale: 1
+    scaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.34573796
+        value: 1.1547316
+        inSlope: 1.1751056
+        outSlope: 1.1751056
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.79205936
+        value: 0.95131767
+        inSlope: -0.66161156
+        outSlope: -0.66161156
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDuration: 0
+    fromScaleChange: 0.99
+    changeOffset: 0.05
+    moveCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.35869563
+        outSlope: 0.35869563
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.34573796
+        value: 1.05
+        inSlope: 0.38220257
+        outSlope: 0.38220257
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.15092327
+      - serializedVersion: 3
+        time: 0.79205936
+        value: 0.95131767
+        inSlope: -0.66161156
+        outSlope: -0.66161156
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

@@ -1,0 +1,643 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635abbdf4a3cf6f0cc55ceb3bf33ef0d, type: 3}
+  m_Name: CarsDB_0
+  m_EditorClassIdentifier: 
+  carsList:
+  - name: Vehicle_Muscle_Car_First
+    sceneName: Vehicle_Muscle_Car_First
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: 
+    displayName: Muscle Car
+    description: 1970 - Rear Wheel Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: 68ce298b31e705a4ab3b3aa44587edf1, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 24
+    totalPriceRuby: 2225
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0060_MuscleCar/Scenes/Vehicle_Muscle_Car_First.unity
+  - name: Vehicle_Car_HotRod_2_v001
+    sceneName: Vehicle_Car_HotRod_2_v001
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: 
+    displayName: Hot Rod
+    description: 1938 - Rear Wheel Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: 494f889b74c2b7d4d89adb0fa58f3ffb, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 48
+    totalPriceRuby: 4162
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0027_HotRod_2/Scenes/Vehicle_Car_HotRod_2_v001.unity
+  - name: Vehicle_Car_Mini_v001_Second
+    sceneName: Vehicle_Car_Mini_v001_Second
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: 
+    displayName: City Car
+    description: 1960 - Front Wheel Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: 9f889f470685a5c49ad231b017daf4dc, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 50
+    totalPriceRuby: 4557
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0050_Mini/Scenes/Vehicle_Car_Mini_v001_Second.unity
+  - name: Vehicle_Car_Jeep_V002
+    sceneName: Vehicle_Car_Jeep_V002
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: 
+    displayName: Army Truck
+    description: 1941 - 4x4 Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: 5847fb0558f050047b43ff877cf071db, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 76
+    totalPriceRuby: 5745
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0040_Jeep/Scenes/Vehicle_Car_Jeep_V002.unity
+  - name: Vehicle_Car_ClassicPickup
+    sceneName: Vehicle_Car_ClassicPickup
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: 
+    displayName: Classic Pickup
+    description: 1955 - Front Wheel Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: b5d3131805aa65c42979540607005d9b, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 70
+    totalPriceRuby: 5752
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0070_ClassicPickup/Scenes/Vehicle_Car_ClassicPickup.unity
+  - name: Vehicle_Car_Rally
+    sceneName: Vehicle_Car_Rally
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: 
+    displayName: Rally Car
+    description: 1984 - All Wheel Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: df80dceac309da7438ab7840a2d38680, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 58
+    totalPriceRuby: 6893
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0080_RallyCar/Scenes/Vehicle_Car_Rally.unity
+  - name: Vehicle_Car_PickupTruck
+    sceneName: Vehicle_Car_PickupTruck
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: 
+    displayName: Utility Truck
+    description: 2018 - Four Wheel Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: 823d09a55615d8c47a580c00441c4ff8, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 60
+    totalPriceRuby: 7341
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0090_PickupTruck/Scenes/Vehicle_Car_PickupTruck.unity
+  - name: Vehicle_Monster Truck
+    sceneName: Vehicle_Car_MonsterToon
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: Assets/Art_CarsSpecific/Locations/GarageWood_3/Scenes/Location_GarageWood_3.unity
+    displayName: Monster Truck
+    description: 1978 - Four Wheel Drive
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 0
+    cardSprite: {fileID: 21300000, guid: 25a901beb08cd50429e2a5b4859d044c, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 32
+    totalPriceRuby: 5992
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0135_MonsterToon/Scenes/Vehicle_Car_MonsterToon.unity
+  - name: Vehicle_Bike_Cruiser
+    sceneName: Vehicle_Bike_Cruiser
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: Assets/Art_CarsSpecific/Locations/GarageWood_3/Scenes/Location_GarageWood_3.unity
+    displayName: Cruiser Bike
+    description: 1974 Cruiser Motorcyle
+    getDirectlyFromFileInEditor: 1
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 1
+    cardSprite: {fileID: 21300000, guid: 526c04cd6657b5249b9f99ecddfd7446, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 36
+    totalPriceRuby: 3648
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0200_Cruiser/Scenes/Vehicle_Bike_Cruiser.unity
+  - name: Vehicle_Bike_Dirt
+    sceneName: Vehicle_Bike_Dirt
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: Assets/Art_CarsSpecific/Locations/GarageWood_3/Scenes/Location_GarageWood_3.unity
+    displayName: Motocross Dirt Bike
+    description: 2023 MX 250
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 1
+    cardSprite: {fileID: 21300000, guid: d83ef19a2e833044e83b5744f5eca812, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 33
+    totalPriceRuby: 3034
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0240_Dirt/Scenes/Vehicle_Bike_Dirt.unity
+  - name: Vehicle_Bike_Scooter
+    sceneName: Vehicle_Bike_Scooter
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: Assets/Art_CarsSpecific/Locations/GarageWood_3/Scenes/Location_GarageWood_3.unity
+    displayName: Scooter
+    description: 1963 Retro Scooter
+    getDirectlyFromFileInEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 1
+    cardSprite: {fileID: 21300000, guid: 20998b42fe15c21438eecfd106f15048, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 39
+    totalPriceRuby: 3664
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0210_Scooter/Scenes/Vehicle_Bike_Scooter.unity
+  - name: Vehicle_Bike_Trike
+    sceneName: Vehicle_Bike_Trike
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: Assets/Art_CarsSpecific/Locations/GarageWood_3/Scenes/Location_GarageWood_3.unity
+    displayName: Trike
+    description: 2016 Trike Custom Motorcyle
+    getDirectlyFromFileInEditor: 1
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 1
+    cardSprite: {fileID: 21300000, guid: 32da26183950abb439d16282cea1e41c, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 32
+    totalPriceRuby: 5992
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0220_Trike/Scenes/Vehicle_Bike_Trike.unity
+  - name: Vehicle_Bike_Adventure
+    sceneName: Vehicle_Bike_Adventure
+    locationSceneName: Location_GarageWood_3
+    editorAssetPathLocationScene: Assets/Art_CarsSpecific/Locations/GarageWood_3/Scenes/Location_GarageWood_3.unity
+    displayName: Adventure Tourer
+    description: 2018 Adventure Tourer Motorcyle
+    getDirectlyFromFileInEditor: 1
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    isOnlyForEditor: 1
+    cardSprite: {fileID: 21300000, guid: 086e40ffe9e949945b74c290852cf282, type: 2}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 500
+        hours: 0
+    totalPrice: 32
+    totalPriceRuby: 5992
+    loadFromAssetBundle: 0
+    assetBundleName: 
+    editorAssetPath: Assets/Art_CarsSpecific/0230_Adventure/Scenes/Vehicle_Bike_Adventure.unity
+  blendSettings:
+    blendDuration: 0.4
+    blendCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  explosionSettings:
+    minValueWhenSwitch: 0.1
+    distanceFromCenter: 1.5
+    durationToReturn: 0.5
+    unexplodeTimeCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sliderCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  carSettings:
+  - carName: TestCar
+    carCameraSettings:
+    - settingsName: InCamera
+      cameraDistance: -5
+      verticalAngleRange:
+        min: 0
+        max: 45
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 0
+      startHorizontalAngle: 0
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 0
+      rotationCenter:
+        x: 0
+        y: 0
+        z: 0
+      changeAnglesAtStart: 0
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_FL
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 29.95
+      startHorizontalAngle: 14.71
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter:
+        x: -0.5337654
+        y: 0.3
+        z: 1.362305
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_FR
+      cameraDistance: -1.72
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 22.21
+      startHorizontalAngle: -34.6
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter:
+        x: 0.5337654
+        y: 0.3
+        z: 1.362305
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_RL
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 23
+      startHorizontalAngle: 17.15
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter:
+        x: -0.5337654
+        y: 0.3
+        z: -1.362305
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+    - settingsName: Wheel_RR
+      cameraDistance: -2
+      verticalAngleRange:
+        min: 10
+        max: 40
+      useHorizontalAngleRange: 0
+      horizontalAngleRange:
+        min: 0
+        max: 0
+      fov: 33
+      startVerticalAngle: 27.2
+      startHorizontalAngle: -2.9
+      horizontalAngleSpeed: 0.2
+      verticalAngleSpeed: 0.2
+      enableRotationCenter: 1
+      rotationCenter:
+        x: 0.5337654
+        y: 0.3
+        z: -1.362305
+      changeAnglesAtStart: 1
+      originalTransform: {fileID: 0}
+  subpartInSettings:
+    inDuration: 0.5
+    fromScale: 0
+    toScale: 1
+    scaleCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 0.5949998
+        value: 1.0739651
+        inSlope: 1.6948581
+        outSlope: 1.6948581
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 0.8549466
+        value: 0.8400797
+        inSlope: -1.1762977
+        outSlope: -1.1762977
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDuration: 0.5
+    moveCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.35869563
+        outSlope: 0.35869563
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 0.34573796
+        value: 1.05
+        inSlope: 0.38220257
+        outSlope: 0.38220257
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.15092327
+      - time: 0.79205936
+        value: 0.95131767
+        inSlope: -0.66161156
+        outSlope: -0.66161156
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    openDuration: 1
+  subpartBlinkSettings:
+    inDuration: 0.5
+    fromScale: 1.2
+    toScale: 1
+    scaleCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 0.34573796
+        value: 1.1547316
+        inSlope: 1.1751056
+        outSlope: 1.1751056
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 0.79205936
+        value: 0.95131767
+        inSlope: -0.66161156
+        outSlope: -0.66161156
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDuration: 0
+    fromScaleChange: 0.99
+    changeOffset: 0.05
+    moveCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.35869563
+        outSlope: 0.35869563
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 0.34573796
+        value: 1.05
+        inSlope: 0.38220257
+        outSlope: 0.38220257
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.15092327
+      - time: 0.79205936
+        value: 0.95131767
+        inSlope: -0.66161156
+        outSlope: -0.66161156
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

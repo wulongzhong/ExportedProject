@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1062489412680721
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4920136280878109}
+  - component: {fileID: 114347084642227320}
+  m_Layer: 0
+  m_Name: mainconfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4920136280878109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062489412680721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114347084642227320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062489412680721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9936c6d7b02c5bfc02dc7e80a5490cda, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stagesDB: {fileID: 11400000, guid: fd964d3ec847a46448870415928e4202, type: 2}
+  levels:
+  - {fileID: 11400000, guid: 092b04bbf9187804c854f41a2dae60a8, type: 2}
+  - {fileID: 11400000, guid: 4d19d8da14aeb3d47bace217f1158310, type: 2}
+  - {fileID: 11400000, guid: a5573f616206ed743954e1288929ede0, type: 2}
+  - {fileID: 11400000, guid: 28332da3727f53340a09215eadfb3e64, type: 2}
+  - {fileID: 11400000, guid: 3d416d134bc9e5547855c9d115b79703, type: 2}
+  - {fileID: 11400000, guid: 24d696ae7df33154d85c948f770ab3ac, type: 2}
+  - {fileID: 11400000, guid: 11c826d20e2b531408a758d2facfd758, type: 2}
+  - {fileID: 11400000, guid: 1a5faac6540c523478ac7df4dfa9bdf7, type: 2}
+  - {fileID: 11400000, guid: c487ed37b4898bc489755c5e70270e5e, type: 2}
+  - {fileID: 11400000, guid: 1fc64d2852ed35d4496882ce7897559f, type: 2}
+  - {fileID: 11400000, guid: cd68b1a472e552f4d8b09eee4ab7eea2, type: 2}
+  carsDB: {fileID: 11400000, guid: 922315e7f47fbdc4ba39723c58fd5443, type: 2}

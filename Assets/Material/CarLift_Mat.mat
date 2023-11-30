@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CarLift_Mat
+  m_Shader: {fileID: 4800000, guid: db61ba3a4d0dbbc49951f29c92ae9928, type: 3}
+  m_ShaderKeywords: _ALBEDO_TEXTURE _AMBIENT_OCCLUSION _METAL_TEXTURE _NORMAL _ROUGHNESS_TEXTURE
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 84d5c32f9184d2246a51b6e9a2a03e7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: 3c8f65394125c1e4489a74c2044e18ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IntegrateBRDF:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalTexture:
+        m_Texture: {fileID: 2800000, guid: 8b8842b55606fd647bfc7938a821b401, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: 16dc215f21755bd4c9ed4d3a56c55647, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTexture:
+        m_Texture: {fileID: 2800000, guid: df22d6581d28d134fb5fade2d0332787, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOTextureChanel: 0
+    - _AlbedoTextureChanel: 0
+    - _ClearCoatAmount: 0
+    - _DstBlend: 0
+    - _FlakeIntensity: 1
+    - _Gloss: 0.5
+    - _LightMode: 0
+    - _Metal: 0
+    - _Metalics: 2.5013735
+    - _NormalScale: 1
+    - _NormalStrength: 1
+    - _Reflection: 0.625
+    - _RenderMode: 0
+    - _Roughness: 0.41
+    - _Shininess: 0.1
+    - _SrcBlend: 1
+    - _UseLigtmap: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BBoxMax: {r: 10, g: 10, b: 10, a: 1}
+    - _BBoxMin: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorFlake: {r: 1, g: 1, b: 1, a: 1}
+    - _EnviCubeMapPos: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

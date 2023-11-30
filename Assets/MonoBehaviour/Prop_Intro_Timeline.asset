@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Prop_Intro_Timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 11400000, guid: 691c34b6a8bb9a54dbcbbced0bc1c5e5, type: 2}
+  - {fileID: 11400000, guid: 1391da05d1545da44a2fdb9172375b2d, type: 2}
+  m_FixedDuration: 4
+  m_EditorSettings:
+    m_Framerate: 30
+  m_DurationMode: 1
+  m_MarkerTrack: {fileID: 11400000, guid: f2a8408f1b2e54948b21f0ec21ab64bf, type: 2}
